@@ -97,7 +97,6 @@ header{
     max-width: 500px;
     height: auto;
 }
-
 .badge-hero{
     background-color: #d2fde8;
     color: #268b5a;
@@ -105,7 +104,6 @@ header{
     border-radius: 20px;
     font-weight: 800;
 }
-
 .judul-hero{
     font-size: 48px;
     color: #1F2933;
@@ -114,7 +112,6 @@ header{
     margin-top: 20px;
     margin-bottom: 20px;
 }
-
 .deskripsi-hero{
     font-size: 16px;
     color: #6e6e6e;
