@@ -77,7 +77,7 @@ header{
 
 /* hero section */
 
-.hero{
+.hero, .tentang{
     width: 90%;
     max-width: 1300px;
     margin: 0 auto;
@@ -365,3 +365,285 @@ header{
     font-weight: 600;
 }
 
+.tentang {
+    background-color: white;
+    border-radius: 30px;
+    box-shadow: 0 10px 30px rgba(18, 55, 42, 0.004);
+    border: 1px solid #E5E9E8;
+    padding: 50px 40px;
+}
+
+.about-kiri{
+
+}
+
+.about-values{
+
+}
+
+.about-title{
+    font-size: 36px;
+    color: #12372A;
+    font-weight: 800;
+    line-height: 1.25;
+    margin-bottom: 16px;
+}
+
+.about-desc{
+    font-size: 15px;
+    color: #52606D;
+    line-height: 1.6;
+    margin-bottom: 25px;
+}
+
+.value-item{
+    display: flex;
+    margin-bottom: 20px;
+    gap: 16px;
+    background-color: #f8fcf9;
+    padding: 16px 20px;
+    border-radius: 16px;
+    border: 1px solid #E5E9E8;
+}
+    .value-icon{
+        font-size: 18px;
+        border-radius: 12px;
+        background-color: #E7F7EE;
+        color: #2EAD70;
+        width: 42px;
+        height: 42px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .value-title{
+        font-weight: 700;
+        font-size: 15px;
+        color: #12372A;
+    }
+    .value-desc{
+        font-size: 13px;
+        color: #52606D;
+        line-height: 1.5;
+    }
+    .box-aboutKanan{
+        background-color: #12372A;
+        width: 560px;
+        color: white;
+        padding: 30px;
+        border-radius: 24px;
+        box-shadow: 0 10px 25px rgba(18, 55, 42, 0.15);
+    }
+
+    .title-aboutKanan{
+        font-size: 20px;
+        font-weight: 800;
+        color: white;
+    }
+
+    .desc-aboutKanan{
+        font-size: 16px;
+        line-height: 1.7;
+        color: #CBEFD8;
+        margin: 15px 0;
+    }
+
+.card-aboutKanan{
+    display: flex;
+    flex-wrap: wrap;
+}
+.card-item{
+    display: flex;
+    flex-wrap: wrap;
+    min-height: 150px;
+    justify-content: space-between;
+    background-color: #294b3c;
+    flex-direction: column;
+    align-items: flex-start;
+    border-radius: 30px;
+    margin: 10px 5px;
+    justify-content: center;
+    gap: 6px;
+    padding: 15px;
+    box-shadow: 0 5px 18px rgba(18, 55, 42, 0.06);
+    width: 48%;
+    color: #7a8982;
+    font-size: 12px;
+}
+
+.title-card-item{
+    color: #2EAD70;
+    font-size: 32px;
+    font-weight: 700;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.fa-solid.fa-star{
+    font-size: 16px;
+}
+
+.desc-card-item{
+    color: white;
+    font-weight: 600;
+    font-size: 16px;
+    flex-direction: row;
+}
+
+/* Hubungi Kami */
+
+.hubungiHeader{
+    text-align: center;
+    margin-top: 90px;
+}
+    .hubungi-badge{
+        font-size: 18px;
+        font-weight: 600;
+    }
+    .hubungi-title{
+        font-size: 48px;
+        font-weight: 900;
+        line-height: 1.2;
+        color: #12372A;
+    }
+    .hubungi-desc{
+        font-size: 18px;
+        font-weight: 500;
+        margin-top: 20px;
+    }
+        /* Kotak Hubungi Kami */
+        
+        .hubungi-info{
+            width: 60%;
+            display: flex;
+            flex-direction: row;
+            margin: auto;
+            padding: 50px 40px;
+            margin-top: 90px;
+            margin-bottom: 90px;
+        }
+
+            /* Informasi Hubungi Kami */
+            
+            .box-info{
+                display: flex;
+                flex-direction: column;
+            }
+
+            .value-box-info{
+                display: flex;
+                margin-bottom: 20px;
+                gap: 16px;
+                background-color: #f8fcf9;
+                padding: 16px 20px;
+                border-radius: 16px;
+                border: 1px solid #E5E9E8;
+                margin-bottom: 40px;
+                margin-right: 40px;
+                width: 90%;
+            }
+
+                .box-info-icon{
+                    font-size: 18px;
+                    border-radius: 12px;
+                    background-color: #E7F7EE;
+                    color: #2EAD70;
+                    width: 42px;
+                    height: 42px;
+                    gap: 16px;
+                    display: flex;
+                    flex-direction: row;
+                    align-items: center;
+                    justify-content: center;
+                }
+            
+        
+            
+        .formulir-box{
+            background-color: white;
+            display: flex;
+            flex-direction: column;
+            width: 700px;
+            height: 600px;
+            color: white;
+            padding: 30px;
+            border-radius: 24px;
+            box-shadow: 0 10px 25px rgba(18, 55, 42, 0.15);
+        }
+
+footer{
+    width: 100%;
+    height: 300px;
+    background-color: #12372A;
+    padding: 16px 32px;
+    color: white;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+    .footer-header{
+        font-size: 22px;
+        font-weight: 800;
+        color: white;
+        text-decoration: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .footer-text{
+        font-size: 15px;
+        font-weight: 400;
+        color: rgba(255, 255, 255, 0.65);
+        margin-top: 20px;
+    }
+
+    .text-footer{
+        padding-left: 5px;
+    }
+
+
+    .nav-menu-footer{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 30px 0;
+        gap: 28px;
+    }
+
+
+    .nav-item-footer{
+        color: white;
+        text-decoration: none;
+        font-weight: 500;
+        font-size: 15px;
+    }
+
+    .nav-item-footer:hover, .nav-item-footer.active{
+        color: #9cfacd;
+        transition: color 0.3s ease;
+    }
+
+    .copyright-footer{
+        color: rgba(255, 255, 255, 0.36);
+    }
+
+    .customhr{
+        height: 1px;
+        background-color:rgba(255, 255, 255, 0.25);
+        border: none;
+        margin: 25px 0;
+    }
+
+
+
+
+
+
+
+
+
+        
