@@ -1,7 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,77 +7,74 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />
 </head>
-
-
 <body>
-    <header>
-        <!-- logo  -->
-        <a href="#" class="nav-logo">
-            <span class="nav-logo-icon">
-                <img src="aset/photos/logo-wellora.png" alt="icon wellora" width="30" height="30">
-            </span>
-            Wellora
-        </a>
 
+<!-- ------------------------- HEADER/NAVIGATION ------------------------- -->
 
-        <!-- menu -->
-        <nav class="nav-menu">
-            <a href="#" class="nav-item active"> Beranda </a>
-            <a href="#" class="nav-item"> Fitur </a>
-            <a href="#" class="nav-item"> Tentang Kami </a>
-            <a href="#" class="nav-item"> Artikel </a>
-            <a href="#" class="nav-item"> Kontak </a>
-        </nav>
+<header>
+        <!-- Logo  -->
+    <a href="#" class="nav-logo">
+        <span class="nav-logo-icon">
+            <img src="aset/photos/logo-wellora.png" alt="icon wellora" width="30" height="30">
+        </span>
+        Wellora
+    </a>
+    <!-- Menu -->
+    <nav class="nav-menu">
+        <a href="#hero-section" class="nav-item active"> Beranda </a>
+        <a href="#feature-section" class="nav-item"> Fitur </a>
+        <a href="#solution-section" class="nav-item"> Solusi </a>
+        <a href="#about-section" class="nav-item"> Tentang Kami </a>
+        <a href="#article-section" class="nav-item"> Artikel </a>
+        <a href="#contact-us" class="nav-item"> Kontak </a>
+    </nav>
+    <!-- Tombol -->
+    <div class="nav-button">
+        <a href="#" class="btn-unduh"> Unduh Aplikasi </a>
+    </div>
+</header>
 
+<!-- ------------------------- HERO SECTION ------------------------- -->
 
+<section class="hero-section" id="hero-section">
+    <div class="text-hero">
+        <span class="badge-hero">
+            <i class="fa-solid fa-heart"></i>
+            Kesehatanmu, Perjalananmu, Prioritasmu
+        </span>
 
+        <h1 class="judul-hero">
+            Hidup Lebih Baik,<br> Tubuh Lebih Bugar
+        </h1>
 
-        <!-- tombol -->
-         <div class="nav-button">
-            <a href="#" class="btn-unduh"> Unduh Aplikasi </a>
-         </div>
+        <p class="deskripsi-hero">
+            Wellora adalah sahabat kesehatan dan kebugaran all-in-one untuk membantu Anda makan lebih sehat, tidur lebih nyeyak, dan hidup seimbang setiap hari
+        </p>
 
-
-    </header>
-
-    <section class="hero">
-        <div class="text-hero">
-           
-            <span class="badge-hero">
-                <i class="fa-solid fa-heart"></i>
-                Kesehatanmu, Perjalananmu, Prioritasmu
-            </span>
-
-            <h1 class="judul-hero">
-                Hidup Lebih Baik,<br> Tubuh Lebih<br> Bugar
-            </h1>
-
-            <p class="deskripsi-hero">
-                Wellora adalah sahabat kesehatan dan kebugaran all-in-one untuk membantu Anda makan lebih sehat, tidur lebih nyeyak, dan hidup seimbang setiap hari
-            </p>
-
-            <div class="btn-hero">
-                <a href="#" class="ios">
-                    Unduh Untuk IOS
-                    <i class="fa-brands fa-apple"></i>
+        <div class="btn-hero">
+            <a href="#" class="ios">
+                Unduh Untuk IOS
+                <i class="fa-brands fa-apple"></i>
                 </a>
-                <a href="#" class="android">
-                    Unduh Untuk Android
-                    <i class="fa-brands fa-android"></i>
-                </a>
-            </div>
-
-            <div class="tagline">
-                Bergabung dengan 50.000+ pengguna bahagia di seluruh dunia
-            </div>
+            <a href="#" class="android">
+                Unduh Untuk Android
+                <i class="fa-brands fa-android"></i>
+            </a>
         </div>
+
+        <div class="tagline">
+           <i class="fa-solid fa-user-group"></i> Bergabung dengan 50.000+ pengguna bahagia di seluruh dunia
+        </div>
+    </div>
 
         <div class="gambar-hero">
             <img src="aset/photos/mobile.png" alt="mobile app" class="gambar  nbn ">
         </div>
-    </section>>
+</section>>
 
-    <section class="fitur">
+<!-- ------------------------- FEATURE SECTION ------------------------- -->
+
+<section class="feature-section" id="feature-section">
         <div class="card">
             <span class="card-icon">
                 <i class="fa-solid fa-person-running" aria-hidden="true"></i>
@@ -134,14 +129,16 @@
                 Lihat capaian kesehatan setiap hari dan tetap termotivasi setiap saat.
             </p>
         </div>
-    </section>
+</section>
 
-    <section class="solusi">
-        <div class="solusi-copy">
+<!-- ------------------------- SOLUTION SECTION ------------------------- -->
+
+<section class="solution-section" id="solution-section">
+        <div class="solution-left">
             <span class="solusi-badge">Semua yang Anda Butuhkan</span>
             <h2>Solusi Kesehatan Lengkap dalam Satu Aplikasi</h2>
             <p class="solusi-desc">Wellora memadukan kebugaran, nutrisi, kualitas tidur, dan ketenangan pikiran dalam satu aplikasi elegan untuk membantu Anda mencapai hidup terbaik.</p>
-            <ul class="solusi-list">
+            <ul class="solution-list">
                 <li>Antarmuka yang mudah digunakan dan ramah bagi pemula</li>
                 <li>Wawasan kesehatan dan kebugaran berbasis riset ilmiah</li>
                 <li>Terhubung otomatis dengan perangkat pintar favorit Anda</li>
@@ -150,35 +147,36 @@
             <a href="#" class="solusi-button">Jelajahi Fitur <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></a>
         </div>
         <div class="grid">
-            <article class="card">
+            <article class="solution-card">
                 <i class="fa-solid fa-fire"></i>
                 <span class="stat-label">Kalori Aktif</span>
                 <strong>320 kkal</strong>
                 <span class="stat-note">+12% dibanding kemarin</span>
             </article>
-            <article class="card">
+            <article class="solution-card">
                 <i class="fa-solid fa-shoe-prints stat-icon" aria-hidden="true"></i>
                 <span class="stat-label">Langkah Harian</span>
                 <strong>12.367</strong>
                 <span class="stat-note">Target: 10.000 langkah</span>
             </article>
-            <article class="card">
+            <article class="solution-card">
                 <i class="fa-solid fa-droplet stat-icon" aria-hidden="true"></i>
                 <span class="stat-label">Asupan Air</span>
                 <strong>1,5 L <small>/ 2,5 L</small></strong>
                 <span class="stat-note">60% tercapai</span>
             </article>
-            <article class="card">
+            <article class="solution-card">
                 <i class="fa-solid fa-person-swimming stat-icon" aria-hidden="true"></i>
                 <span class="stat-label">Waktu Olahraga</span>
                 <strong>20 <small>/ 30 mnt</small></strong>
                 <span class="stat-note">Pertahankan semangatmu!</span>
             </article>
         </div>
-    </section>
+</section>
 
-    <!-- tentang kami -->
-<section class="tentang">
+<!-- ------------------------- ABOUT SECTION ------------------------- -->
+
+<section class="about-section" id="about-section">
     <div class="about-kiri">
         <span class="about-badge">
             <i class="fa-solid fa-leaf"></i> Tentang Wellora
@@ -223,10 +221,10 @@
         </div>
     </div>
     <div class="about-kanan">
-        <div class="box-aboutKanan">
-            <h2 class="title-aboutKanan"> Perjalanan kita Bersama</h2>
-            <p class="desc-aboutKanan">Sejak diluncurkan, Wellora terus bertumbuh<br> mendampingi puluhan ribu individu mencapai versi<br> terbaik dari diri mereka</p>
-            <div class="card-aboutKanan">
+        <div class="box-about-kanan">
+            <h2 class="title-about-kanan"> Perjalanan kita Bersama</h2>
+            <p class="desc-about-kanan">Sejak diluncurkan, Wellora terus bertumbuh<br> mendampingi puluhan ribu individu mencapai versi<br> terbaik dari diri mereka</p>
+            <div class="card-about-kanan">
                 <div class="card-item">
                     <h2 class="title-card-item">50K+</h2>
                     <p class="desc-card-item">Pengguna Aktif</p>
@@ -248,8 +246,15 @@
     </div>
 </section>
 
-<section class="hubungi-kami">
-    <div class="hubungiHeader">
+<!-- ------------------------- ARTICLE SECTION WIP ------------------------- -->
+
+
+
+<!-- ------------------------- CONTACT US SECTION ------------------------- -->
+
+<section class="contact-us" id="contact-us">
+    <!-- Heading Section -->
+    <div class="contact-header">
         <span class="hubungi-badge">
             <i class="fa-solid fa-headset"></i> Hubungi Kami
         </span>
@@ -258,6 +263,7 @@
         </h1>
         <p class="hubungi-desc">Punya pertanyaan seputar fitur aplikasi Wellora, kemitraan, atau ingin berkonsultasi? Kirimkan<br> pesan Anda kepada tim kami</p>
     </div>
+    <!-- Info Column -->
     <div class="hubungi-info">
         <div class="box-info">
             <div class="value-box-info">
@@ -295,7 +301,7 @@
                         Alamat Kantor
                     </div>
                     <div class="box-info-desc">
-                        Gedung Wellora Health Center, Jakarta Selatan, Indonesia
+                        Gedung Wellora Health Center, Jakarta Selatan,<br> Indonesia
                     </div>
                 </div>
             </div>
@@ -312,32 +318,86 @@
                     </div>
                 </div>
             </div>
-
         </div>
         <div class="formulir-box">
+          <h3 class="form-title">Kirim Pesan Langsung</h3>
+          <p class="form-desc">Isi formulir berikut dan tim kami akan membalas dalam 1x24 jam kerja.</p>
+        <!-- Pertanyaan Formulir -->
+          <form>
+            <div class="form-row">
+              <div class="form-group">
+                <label>Nama Lengkap</label>
+                <input type="text" placeholder="Masukkan nama Anda">
+              </div>
+              <div class="form-group">
+                <label>Alamat Email</label>
+                <input type="email" placeholder="nama@email.com">
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label>Subjek Pesan</label>
+              <input type="text" placeholder="Contoh: Pertanyaan seputar fitur">
+            </div>
+
+            <div class="form-group">
+              <label>Pesan Anda</label>
+              <textarea rows="4" placeholder="Tuliskan pesan atau pertanyaan Anda di sini..."></textarea>
+            </div>
+
+            <button type="submit" class="btn-kirim">
+              Kirim Pesan Sekarang <i class="fa-solid fa-paper-plane"></i>
+            </button>
+          </form>
         </div>
     </div>
-
-
+    </div>
+</div>
 </section>
 
+<button id="btn-rt" class="btnReturnTop" onclick="toTopPage()">
+    <i class="fa-solid fa-arrow-up"></i>
+</button>
+
+<script>
+    window.addEventListener('scroll', function() {
+        const btnTop = document.getElementById('btn-rt');
+        if (window.scrollY > 300){
+            btnTop.style.display = 'flex';
+        } else {
+            btnTop.style.display = 'none';
+        }
+    });
+
+    function toTopPage(){
+        window.scrollTo({
+            top : 0
+        })
+    }
+
+</script>
+
+<!-- ------------------------- FOOTER ------------------------- -->
+
 <footer>
-    <span class="footer-header">
-        <img class="image-footer" src="aset/photos/logo-wellora.png" alt="icon wellora" width="30" height="30"> <div class="text-footer">Wellora</div>
-    </span>
-    <div class="footer-text">
-        Sahabat setia Anda menuju kehidupan yang lebih sehat, aktif, dan seimbang<br> setiap hari
+    <div class="footer-content">
+        <span class="footer-header">
+            <img class="image-footer" src="aset/photos/logo-wellora.png" alt="icon wellora" width="30" height="30"> <div class="text-footer">Wellora</div>
+        </span>
+        <div class="footer-text">
+            Sahabat setia Anda menuju kehidupan yang lebih sehat, aktif, dan seimbang<br> setiap hari
+        </div>
+        <nav class="nav-menu-footer">
+            <a href="#" class="nav-item-footer active"> Beranda </a>
+            <a href="#" class="nav-item-footer"> Fitur </a>
+            <a href="#" class="nav-item-footer"> Dashboard </a>
+            <a href="#" class="nav-item-footer"> Tentang Kami </a>
+            <a href="#" class="nav-item-footer"> Artikel </a>
+            <a href="#" class="nav-item-footer"> Kontak </a>
+        </nav>
+        <hr class="customhr" size="0.5">
+        <p class="copyright-footer">&copy; 2026 Wellora. Seluruh hak cipta dilindungi. Dibuat untuk pembelajaran CSS Flexbox Siswa Kelas X RPL</p>
     </div>
-    <nav class="nav-menu-footer">
-        <a href="#" class="nav-item-footer active"> Beranda </a>
-        <a href="#" class="nav-item-footer"> Fitur </a>
-        <a href="#" class="nav-item-footer"> Dashboard </a>
-        <a href="#" class="nav-item-footer"> Tentang Kami </a>
-        <a href="#" class="nav-item-footer"> Artikel </a>
-        <a href="#" class="nav-item-footer"> Kontak </a>
-    </nav>
-    <hr class="customhr" size="0.5">
-    <p class="copyright-footer">&copy; 2026 Wellora. Seluruh hak cipta dilindungi. Dibuat untuk pembelajaran CSS Flexbox Siswa Kelas X RPL</p>
 </footer>
 
 </body>
