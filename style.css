@@ -3,7 +3,8 @@
     --warna-button : #2ead70;
     --warna-text-desc : #52606D;
     --size-text-desc : 16px;
-    --size-title : 48px
+    --size-title : 48px;
+    --size-text-weight : 600px;
 }
 
 /* --------------- RESET CSS --------------- */
@@ -475,7 +476,7 @@ header {
 
         .box-about-kanan{
             background-color: var(--warna-hijau-gelap);
-            width: 450px;
+            width: 500px;
             color: white;
             padding: 30px;
             border-radius: 24px;
@@ -495,48 +496,198 @@ header {
                 margin: 15px 0;
             }
 
-            .card-about-kanan{
+            .left-column, .right-column {
                 display: flex;
                 flex-wrap: wrap;
-            }
+                width: 100%;
+                height: 100%;
+            
 
-            .card-item{
-                display: flex;
-                justify-content: space-between;
-                background-color: #294b3c;
-                flex-direction: column;
-                align-items: flex-start;
-                border-radius: 30px;
-                margin: 10px 5px;
-                justify-content: center;
-                gap: 6px;
-                padding: 15px;
-                box-shadow: 0 5px 18px rgba(18, 55, 42, 0.06);
-                color: #7a8982;
-                font-size: 12px;
-            }
+                .card-item{
+                    background-color: #294b3c;
+                    align-items: flex-start;
+                    border-radius: 30px;
+                    margin: 10px 5px;
+                    justify-content: center;
+                    gap: 6px;
+                    padding: 15px;
+                    box-shadow: 0 5px 18px rgba(18, 55, 42, 0.06);
+                    color: #7a8982;
+                    font-size: 12px;
+                    width: 200px;
+                    height: 150px;
+                }
 
-            .title-card-item{
-                color: #2EAD70;
-                font-size: 32px;
-                font-weight: 700;
-                display: flex;
-                flex-direction: row;
-                align-items: center;
-            }
+                .card-content {
+                    display: inline-block;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                }
 
-            .fa-solid.fa-star{
-            font-size: 16px;
-            }
+                .title-card-item{
+                    color: #2EAD70;
+                    font-size: 24px;
+                    font-weight: 700;
+                    display: flex;
+                    flex-direction: row;
+                    align-items: center;
+                }
 
-            .desc-card-item{
-                color: white;
-                font-weight: 600;
+                .fa-solid.fa-star{
                 font-size: 16px;
-                flex-direction: row;
+                }
+
+                .desc-card-item{
+                    color: white;
+                    font-weight: 600;
+                    font-size: 16px;
+                    flex-direction: row;
+                }
             }
         }
     }
+
+.article {
+  width: 90%;
+  max-width: 1100px;
+  margin: 90px auto;
+  padding: 25px 0 55px;
+
+
+    .article-header {
+        text-align: center;
+        margin-bottom: 40px;
+    }
+
+    .article-badge {
+        display: inline-block;
+        font-size: 12px;
+        font-weight: 800;
+        margin-bottom: 12px;
+    }
+
+    .article-badge i {
+        margin-right: 5px;
+    }
+
+    .article-title {
+        color: var(--warna-hijau-gelap);
+        font-size: var(--size-title);
+        font-weight: 800;
+        margin-bottom: 12px;
+        line-height: 1.3;
+    }
+
+    .article-desc {
+        color: #52606d;
+        font-size: 14px;
+        line-height: 1.7;
+        max-width: 600px;
+        margin: 0 auto;
+    }
+
+    .article-section {
+        display: flex;
+        justify-content: space-between;
+        gap: 20px;
+    }
+
+    .article-card {
+        width: 32%;
+        background-color: white;
+        border-radius: 18px;
+        overflow: hidden;
+        box-shadow: 0 4px 20px rgba(18, 55, 42, 0.06);
+        border: 1px solid #e8f5ed;
+        transition: transform 0.2s ease, box-shadow 0.2s ease;
+    }
+
+    .article-card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 8px 25px rgba(18, 55, 42, 0.1);
+    }
+
+    .article-image {
+        width: 100%;
+        height: 180px;
+        overflow: hidden;
+    }
+
+    .article-image img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        transition: transform 0.3s ease;
+    }
+
+    .article-card:hover .article-image img {
+        transform: scale(1.05);
+    }
+
+    .article-content {
+        padding: 20px;
+    }
+
+    .article-category {
+        display: inline-block;
+        padding: 4px 10px;
+        background-color: #f8f8f8;
+        color: var(--warna-button);
+        border: 1px solid #dddddd;
+        font-size: 11px;
+        font-weight: 700;
+        border-radius: 10px;
+        margin-bottom: 8px;
+    }
+
+    .article-time {
+        display: block;
+        color: #829188;
+        font-size: 11px;
+        margin-bottom: 12px;
+    }
+
+    .article-card-title {
+        color: var(--warna-hijau-gelap);
+        font-size: 16px;
+        font-weight: 700;
+        margin-bottom: 10px;
+        line-height: 1.4;
+    }
+
+    .article-card-desc {
+        color: black;
+        font-size: 12px;
+        line-height: 1.6;
+        margin-bottom: 15px;
+    }
+
+    .article-link {
+        display: inline-flex;
+        align-items: center;
+        color: var(--warna-button);
+        font-size: 12px;
+        font-weight: 700;
+        text-decoration: none;
+        gap: 6px;
+        transition: color 0.2s ease;
+    }
+
+    .article-link:hover {
+        color: #248c5a;
+    }
+
+    .article-link i {
+        font-size: 10px;
+        transition: transform 0.2s ease;
+    }
+
+    .article-link:hover i {
+        transform: translateX(3px);
+    }
+
+}
 
 /* Hubungi Kami */
 
@@ -555,7 +706,7 @@ header {
         }
 
         .hubungi-badge {
-            font-size: 18px;
+            font-size: var(--size-text-desc);
             font-weight: 600;
         }
 
@@ -567,7 +718,7 @@ header {
         }
 
         .hubungi-desc {
-            font-size: 18px;
+            font-size: 12px;
             font-weight: 500;
             margin-top: 20px;
         }
