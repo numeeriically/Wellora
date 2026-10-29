@@ -664,7 +664,6 @@ header {
     }
 
     .article-link {
-        display: inline-flex;
         align-items: center;
         color: var(--warna-button);
         font-size: 12px;
